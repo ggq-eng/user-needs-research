@@ -1,0 +1,11 @@
+{
+  "assetType": "skill",
+  "name": "user-needs-research",
+  "displayName": "用户需求研究",
+  "semver": "1.0.0",
+  "description": "专为产品创新和设计打造的用户需求研究工具。通过六大维度（需求层级、痛点挖掘、用户分层、决策链路、消费动机、行为逻辑）进行系统化用户研究，输出专业Word格式研究报告。适用于新产品立项、功能优化、市场进入、用户增长等场景。",
+  "author": "your-name",
+  "tags": ["user-research", "product-design", "innovation", "market-research", "customer-insights", "ux-research", "product-management"],
+  "category": "productivity",
+  "entry": "SKILL.md"
+}

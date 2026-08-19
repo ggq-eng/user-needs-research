@@ -1,0 +1,23 @@
+{
+  "id": "user-needs-research",
+  "name": "user-needs-research",
+  "displayName": "用户需求研究",
+  "version": "1.0.0",
+  "description": "专为产品创新和设计打造的用户需求研究工具。通过六大维度（需求层级、痛点挖掘、用户分层、决策链路、消费动机、行为逻辑）进行系统化用户研究，帮助产品经理、设计师、创业者深度理解目标用户，发现创新机会。最终输出专业Word格式的研究报告。",
+  "type": "skill",
+  "author": "your-name",
+  "tags": ["user-research", "product-design", "innovation", "market-research", "customer-insights", "ux-research", "product-management", "word-output"],
+  "category": "productivity",
+  "entry": "SKILL.md",
+  "output": ["text", "docx"],
+  "scripts": {
+    "generate_report": "generate_report.py"
+  },
+  "config": {
+    "file": "config.json",
+    "schema": {
+      "dimensions": "object",
+      "output": "object"
+    }
+  }
+}

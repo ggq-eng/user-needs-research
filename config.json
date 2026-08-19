@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "framework": "六大维度用户需求研究",
+  "dimensions": {
+    "hierarchy": {
+      "name": "需求层级",
+      "nameEn": "Hierarchy",
+      "key": "需求金字塔",
+      "color": "#E91E63",
+      "levels": [
+        {"level": "L5", "name": "自我实现", "focus": "成长、意义、成就"},
+        {"level": "L4", "name": "尊重需求", "focus": "认可、地位、掌控"},
+        {"level": "L3", "name": "社交需求", "focus": "归属、连接、认同"},
+        {"level": "L2", "name": "安全需求", "focus": "稳定、保障、信任"},
+        {"level": "L1", "name": "生理需求", "focus": "功能、效率、基础"}
+      ]
+    },
+    "painPoints": {
+      "name": "痛点挖掘",
+      "nameEn": "Pain Points",
+      "key": "痛点清单与优先级",
+      "color": "#F44336",
+      "methods": ["5Why分析法", "场景还原法", "对比法"],
+      "priorityFormula": "强度×2 + 频率×1.5 + 紧迫性×1.5 + 支付意愿×1"
+    },
+    "userSegments": {
+      "name": "用户分层",
+      "nameEn": "User Segments",
+      "key": "用户画像与分层策略",
+      "color": "#9C27B0",
+      "dimensions": ["基础属性", "行为属性", "价值属性"]
+    },
+    "decisionJourney": {
+      "name": "决策链路",
+      "nameEn": "Decision Journey",
+      "key": "决策旅程与关键触点",
+      "color": "#673AB7",
+      "stages": ["认知", "兴趣", "评估", "决策", "购买", "使用", "复购/流失"]
+    },
+    "motivations": {
+      "name": "消费动机",
+      "nameEn": "Motivations",
+      "key": "动机类型与强度",
+      "color": "#3F51B5",
+      "types": ["功能动机", "情感动机", "社会动机"]
+    },
+    "behaviorLogic": {
+      "name": "行为逻辑",
+      "nameEn": "Behavior Logic",
+      "key": "用户旅程与行为数据",
+      "color": "#2196F3",
+      "model": "BJ Fogg模型：行为 = 动机 × 能力 × 提示"
+    }
+  },
+  "output": {
+    "format": "Word",
+    "template": "generate_report.py",
+    "chapters": [
+      "研究概述",
+      "需求层级分析",
+      "痛点挖掘",
+      "用户分层",
+      "决策链路",
+      "消费动机",
+      "行为逻辑",
+      "核心洞察与建议"
+    ]
+  },
+  "applicable": {
+    "yes": [
+      "新产品立项前的市场验证",
+      "现有产品用户反馈梳理",
+      "用户增长瓶颈分析",
+      "产品定位明确",
+      "融资/汇报准备"
+    ],
+    "no": [
+      "已有明确用户洞察",
+      "纯技术可行性研究",
+      "紧急救火场景"
+    ]
+  },
+  "dependencies": {
+    "python": ["python-docx"]
+  }
+}
